@@ -1,0 +1,27 @@
+Data : Unprocessed Data and Unorganized Data
+
+Data Scale : Raw Data --> BigData
+
+The Engineering Approach that we are using to solve this kind of big problem is making use of Distributed Computing
+
+1. Data Engineering: An Engineering approach which will curate the whole unprocessed data to organized data
+    1. Data ingestion:
+        1. Flume, kafka, Apache Nifi, etc.
+    2. Data warehousing
+    3. Data Transformation --> Data type transformation --Date
+    4. Data Indexing
+    5. Data Fingerprinting
+    6. Data tagging
+    7. Data profiling
+
+ETL Pipeline --> Snowflake, Informatica, Aws Glue(Automate Process above)
+--> Data Engineers (70-80% role)
+--> Big data technologies 
+    -- Platforms => hadoop, Spark.
+    -- Tools => Ingesting tools, Event streaming tools.
+    -- Programming languages => Scala(Efficient), Python
+        -- Framework (packages)=> Pyspark, SparkML, SparkSQL, Hive, Impala
+
+
+
+Information: Processed Data

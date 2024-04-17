@@ -1,0 +1,1 @@
+# It holds all the configrations and global variables, constants required by the software.

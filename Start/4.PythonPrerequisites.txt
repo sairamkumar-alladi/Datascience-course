@@ -1,0 +1,14 @@
+Python --> Application
+Python --> Inbuilt packages will be available
+    1. math,os,sys,logging etc.
+Python --> 3rd party packages
+    1. Tensorflow, Pytorch, Pandas, DataPrep, etc.
+
+We can install our python 3rd party moules using python installation packagemanager --> pip
+    1. pip install virtualenv
+    2. virtualenv <name>
+    Python Virtual Entivironmet:
+        1.activate:(we have to to run bash script)<parentdirectory>/lms/bin/activate
+         (source activate)
+        2.deactivate(default):
+

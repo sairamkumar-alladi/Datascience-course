@@ -1,0 +1,50 @@
+Folder or File Naming
+    FolderNaming:
+    --> CamelCase with starting letter capital.
+    --> Ex:coding grad, CODINGGRAD, Coding Grad --> Unacceptable
+    --> Ex: CodingGrad, FullStackDataScience(FDS)
+    FileNaming:
+    --> All smallcase letters
+    --> Snake_case
+    --> introduction_course
+    --> try to not use prepositions, article, conjuctions 
+
+    FileSystem:
+    --> Its a software which will map your paths to address on disk
+    --> FTS, NFTS -- File Tables
+    --> Paths:
+        1. Absolute Path -> Full path -> c:\Users\Vamshi\CodingGrad\start.txt
+            --> Root Folder(Starting Folder) --> /(Linux), c:Drive(Windows)
+            --> Os Folders --> /usr, /bin, /lib, /sbin, /home, /mnt
+            --> Home Folder --> /home/sai (linux), c:\Users\sai(windows)
+            --> Command Prompt / Terminal --> Default --> Home Folder
+
+        2. Relative Path --> .\CodingGrad\sample.txt
+            --> pwd --> Linux Command --> Present Working Directory
+            --> w.r.t PWD where is the path --> relative path 
+
+Environment Variables: --> Lookup Table 
+
+HOME : its an Environment variable which holds Home Directory
+PATH : <Terminal Binary path>:<VS code Binary path>:<Python Binary Path>
+PYTHONPATH : 
+
+
+Applications:
+1. GUI Applications --> VS Code, Chrome, GitBash GUI, Notepad
+2. Non-GUI APPLICATION --> Terminal, GitBash, Python, Java, C/C++,vi, vim, Nano etc
+3. Daemon Applications --> Sleep, Monitor Maintanance, Brightness, System Daemon Applications.
+
+
+VIM:
+--> Vim is non-gui editor.
+--> It will be in 2 modes
+    1. Read mode
+    2. write mode
+--> By Default vim editor will be in read mode
+
+** ls --> listing all files in current Directory
+** ls <path> --> list out all contents inside the path
+** rm <path> --> removes specified files
+** rm -r <path> --> removes all files recursively 
+** cp -r <source>/* destination
